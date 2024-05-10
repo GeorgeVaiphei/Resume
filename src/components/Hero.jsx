@@ -19,7 +19,7 @@ const Hero = () => {
           consequatur!
         </p>
         <button className="hero__btn btn">
-          <a href="mailto:vanalalgeorgevpz@gmail.com"
+          <a href="mailto:vanlalgeorgevpz@gmail.com"
           target="_blank">Reach Out</a>
         </button>
       </section>
