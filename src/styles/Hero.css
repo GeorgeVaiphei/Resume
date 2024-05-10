@@ -1,0 +1,126 @@
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid red; */
+    flex-direction: column;
+    gap: 2em;
+    text-align: center;
+    color: var(--clr-light3);
+}
+
+.dp {
+    width: 8rem;
+    height: 8rem;
+    border-radius: 50%;
+    user-select: none;
+    -webkit-user-select: none;
+    outline: 3px solid var(--clr-dark);
+}
+
+.hero__name {
+    /* margin-top: 1rem; */
+    font-family: 'Dancing Script', cursive;
+    font-size: var(--s-xl);
+}
+
+.hero__title {
+    /* margin-top: 1rem; */
+    font-family: 'Array', sans-serif;
+    font-size: var(--s-2xl);
+    text-transform: uppercase;
+    color: var(--clr-teal600);
+    letter-spacing: 3px;
+
+}
+
+.hero__description {
+    max-width: 768px;
+}
+
+
+/*  ////////////// MEDIA QUERIES ////////////////  */
+
+
+@media (min-width:475px) {
+    .container {
+        max-width: 475px;
+    }
+}
+
+/* ///////////// 640px ////////////// */
+
+@media (min-width:640px) {
+    .container {
+        max-width: 640px;
+    }
+
+    .hero {
+        gap: 1.5em;
+
+    }
+
+    .dp {
+        width: 10rem;
+        height: 10rem;
+    }
+
+    .hero__name {
+        font-size: var(--s-2xl);
+    }
+
+    .hero__title {
+        font-size: var(--s-3xl);
+    }
+}
+
+/* ///////////  768px /////////// */
+
+@media (min-width:768px) {
+    .container {
+        max-width: 768px;
+    }
+
+    .hero {
+        gap: 1em;
+
+    }
+
+    .dp {
+        width: 12rem;
+        height: 12rem;
+    }
+
+    .hero__name {
+        font-size: var(--s-4xl);
+    }
+
+    .hero__title {
+        font-size: var(--s-5xl);
+    }
+
+    .hero__description {
+        font-size: var(--s-l);
+    }
+    .hero__btn {
+        margin-top: 1rem;
+    }
+}
+
+/* ///////////// 1024px ///////////// */
+
+@media (min-width:1024px) {
+    .container {
+        max-width: 1024px;
+    }
+}
+
+/* ///////////// 1280px ///////////// */
+
+@media (min-width:1280px) {
+    .container {
+        max-width: 1280px;
+    }
+}
+
+@media (min-width:1536px) {}

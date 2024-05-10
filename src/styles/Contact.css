@@ -1,0 +1,55 @@
+.contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    gap: 1rem;
+    /* border: 1px solid red; */
+}
+
+.contact__title {
+    font-size: var(--s-xl);
+    text-transform: uppercase;
+}
+
+.about__description {
+    max-width: 60ch;
+    font-size: var(--s-base);
+}
+
+/* ////////////////// SOCIAL //////////////// */
+
+.social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    max-width: 475px;
+}
+
+.social a svg {
+    color: var(--clr-light3);
+    width: 2rem;
+    height: 2rem;
+}
+
+.social a svg:hover {
+    color: var(--clr-teal600);
+}
+
+
+/*  ////////////// MEDIA QUERIES ////////////////  */
+
+
+/* @media (min-width:475px) {} */
+
+/* @media (min-width:640px) {} */
+
+/* @media (min-width:768px) {} */
+
+/* @media (min-width:1024px) {} */
+
+/* @media (min-width:1280px) {} */
+
+/* @media (min-width:1536px) {} */

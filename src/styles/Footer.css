@@ -1,0 +1,12 @@
+.footer {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.footer span {
+    font-size: var(--s-xs);
+    font-weight: 300;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-family: 'Roundo', sans-serif;
+}

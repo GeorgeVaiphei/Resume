@@ -1,0 +1,19 @@
+.btn {
+    color: var(--clr-light2);
+    background-color: var(--clr-teal600);
+    border-radius: 8px;
+    padding: 0.5rem 1rem;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    color: var(--clr-light2);
+    background-color: var(--clr-teal800);
+}
+
+a {
+    color: var(--clr-light2);
+    text-decoration: none;
+}
